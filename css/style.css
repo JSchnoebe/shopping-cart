@@ -1,20 +1,47 @@
 /* TODO: Make it awesome */
 
 h1 {
+    position: sticky;
     font-size: 20px;
     background-color: palevioletred;
 }
 
+h1:hover {
+    border: black;
+    border-style: inset;
+}
+
+
+
+
 body {
     background-color: rgb(95, 164, 243);
     margin: 50px;
+    
 }
 
 ul {
-    background-color: palevioletred;
+    
     color: whitesmoke;
 }
 
 nav li {
     color: whitesmoke;
 }
+
+li {
+    background-color: aquamarine;
+    margin: 20px;
+    padding: 10px;
+}
+
+
+li:hover{
+    border: lightcoral;
+    border-style: ridge;
+}
+
+
+
+
+
